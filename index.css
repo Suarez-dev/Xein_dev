@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box ;
+    
+}
+img{
+    width: 40rem;
+    height: 40rem;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.name-logo{
+width: 50%;
+margin-left: 4.5rem;
+display: flex;
+justify-content: flex-start;
+
+font-size: 2rem;
+color: black;
+}
+.xein{
+    padding-left: 40px;
+    color: black;
+    text-decoration: none   ;
+}
+
+.barra-navegacion{
+
+    width: 28%;
+    margin: 9em;
+    display: flex;
+    justify-content:space-around ;
+
+    font-size: 1.1rem;
+}
+
+.barra-navegacion a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.section-left_main{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+}
+
+.title-main{
+    font-size: 3.3rem;
+    position: relative;
+    left: 100px;
+    bottom: 60px;
+}
+
+.get-contact{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 100px;
+    color: black;
+    
+    border: 1px solid black;
+
+    text-decoration: none;
+
+}
+.redes{
+    background-color: white;
+    display: flex;
+    position: relative;
+    left: 100px;
+
+    top: 200px;
+}
+.redes p a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.section-right_main{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section_background{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    padding: 80px;
+    background-color: #f4f4f4;
+
+}
+
+.contenedor_background{
+    width: 54%;
+    height: 100%;
+    margin: 50px;
+    background-color: #f4f4f4;
+
+}
+
+.background-title{
+    opacity: 0.6;
+    font-size: 0.9rem;
+    margin: 20px;
+    letter-spacing: 2px;
+}
+
+.background-text{
+    margin: 20px;
+    font-size: 1.1rem;
+}
+
+
+
+.contenedor_skills{
+    width: 30%;
+    height: 100%;
+    margin: 50px;
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #f4f4f4;
+    line-height: 1.2rem;
+}
+
+.skills-title{
+    font-size: 0.9rem;
+    margin: 20px;
+    opacity: 0.6;
+    letter-spacing: 2px;
+
+}
+
+.p{
+    font-size: 1.1rem;
+    margin-left: 20px;
+    margin-top: 8px;
+    
+}
+   
+
+.english_phrase{
+    width: 100%;
+    height: 420px;
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.english_paragraph{
+    font-size: 2.4rem;
+    
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+}
+
+.container_what_i-do{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 70px;
+}   
+
+.what_i-do--left{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.rayitas{
+    font-size: 2.7rem;
+    position: relative;
+    bottom: 70px;
+    right: 120px;
+    letter-spacing: 1px;    
+}
+
+.title-what_i-do{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 20px;
+    right: 56px;
+}
+
+.paragraph-what__i-do{
+    width: 58%;
+    position:relative;
+    top: 80px;
+    left: 40px;
+    line-height: 30px;
+    font-size: 1rem;
+
+}
+
+.what_i-do--right{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #f4f4f4;
+  
+}
+.contenedor-footer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.title-footer{
+width: 50%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+font-size: 4.2rem;
+letter-spacing: 2px;
+}
+
+.redes-footer{
+width: 50%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.redes-footer a{
+    text-align: center;
+    margin: 10px;
+    font-size: 1.8rem;
+}
+.laimage{
+    width: 25px;
+    height: 25px;
+}

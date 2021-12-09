@@ -1,0 +1,104 @@
+
+*{
+    margin:0;
+    padding:0;
+
+ box-sizing: border-box;
+}
+
+/*  
+HEADERRRRRRRRRR
+*/.header{
+    width: 100%;
+    height: 100px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    margin-bottom: 100px;
+}
+
+.name-logo{
+width: 50%;
+margin-left: 4.5rem;
+display: flex;
+justify-content: flex-start;
+
+font-size: 1.6rem;
+color: black;
+}
+.xein{
+    padding-left: 40px;
+    color: black;
+    text-decoration: none   ;
+}
+
+.barra-navegacion{
+
+    width: 28%;
+    margin: 9em;
+    display: flex;
+    justify-content:space-around ;
+
+    font-size: 1.1rem;
+}
+
+.barra-navegacion a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*finaliza headerrr*/
+
+
+/*comienza el footer ---*/
+
+
+/* footer */
+
+
+.footer{
+    margin-top: 270px;
+
+    top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: #f4f4f4;
+  
+}
+.contenedor_footer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.title_footer{
+width: 50%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+font-size: 4.2rem;
+letter-spacing: 2px;
+}
+
+.redes_footer{
+width: 50%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.redes_footer a{
+    text-align: center;
+    margin: 10px;
+    font-size: 1.8rem;
+}
+.laimage{
+    width: 25px;
+    height: 25px;
+}
